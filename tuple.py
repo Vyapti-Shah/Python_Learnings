@@ -1,4 +1,4 @@
-#Tuple - collections which is ordered and unchangeable used to group together related data
+#Tuple - collections which is ordered and unchangeable used to group together related data. Ordered, immutable sequence.
 
 student = ("Vyapti",19,"female")
 print(student.count("Vyapti"))
@@ -12,4 +12,5 @@ for i in student:
 print()
 
 if "Vyapti" in student:
+
     print("Vyapti is here!")
