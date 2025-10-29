@@ -1,4 +1,4 @@
-#Sets - collection which is unordered, unindexed. No duplicate values
+#Sets - collection which is unordered, unindexed. No duplicate values. Unordered collection of unique elements.
 
 utensils = {"spoon", "fork", "knife", "knife"}
 dishes = {"bowl", "plate", "cup", "knife"}
@@ -49,3 +49,4 @@ print()
 utensils.clear()
 for k in utensils:
     print(k)
+
