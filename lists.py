@@ -1,4 +1,4 @@
-#Lists - used to store multiple items in a single variable 
+#Lists - used to store multiple items in a single variable. These are ordered, mutable, dynamic-size sequence.
 
 fruits = ["apple", "banana", "plum", "cherry"]
 
@@ -61,5 +61,6 @@ print()
 fruits.clear() #clears everything
 for d in fruits:
     print(d)
+
 
 print()
