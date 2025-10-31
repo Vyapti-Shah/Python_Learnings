@@ -1,4 +1,4 @@
-# duck typing - concept ehere the class of an object is less important than the methods/attribute
+# duck typing - concept where the class of an object is less important than the methods/attribute
 #             - class type is not checked if minimum methods/attributes are present
 #             - "if it walks like a duck, and it quacks liike a duck, then must be a duck"
 
@@ -26,4 +26,5 @@ person = Person()
 
 person.catch(duck)
 person.catch(chick) #as the methods and attributes inside the duck and chick class are same it will print the chick method 
+
                     #without calling it on itself and print the respective output
